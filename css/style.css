@@ -1,0 +1,272 @@
+﻿/*common CSS part start*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*common CSS part end*/
+------------------------------------------------------------------------------------------------------
+
+/*===menu part start===*/
+
+.navbar-nav{
+    padding-left:0px;
+    z-index: 1;
+}
+
+.navbar-nav .nav-item{
+    padding-left: 42px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+}
+
+.btn span{
+    background-color: #3F3D56;
+    padding: 14px 40px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/*===menu part end===*/
+/*--------------------------------------------------------------------*/
+
+/*===banner part start===*/
+
+.banner{
+   height: 768px;
+    width: 100%;
+    position: relative;
+}
+
+.ban_img img{
+    height: 1100px;
+    width:1100px;
+    position: absolute;
+    right: -195px;
+    top: -350px;
+}
+
+.ban_img_laptop img{
+    display: none;
+}
+
+.ban_con{
+    margin-left: 210px;
+}
+
+.ban_con h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 300px 0px 0px 15px;
+}
+
+.ban_con p{
+    font-family:'Questrial', sans-serif ;
+    font-size: 18px;
+    padding: 20px 0px 30px 15px;
+    font-weight: 400;
+}
+
+.ban_icon{
+    padding-top: 80px;
+}
+
+.ban_icon a{
+    padding-left: 25px;
+    color: #3F3D56;
+    font-size: 25px;
+}
+/*===banner part end===*/
+/*-------------------------------------------------------------------------------------------------*/
+
+/*===I do Part start===*/
+
+.work{
+    position: relative;
+}
+
+.side_image{
+    position: absolute;
+    top: -100px;
+    left: -120px;
+}
+
+.big_box{
+    position: relative;
+}
+
+.totted img{
+    height: 250px;
+    width: 580px;
+    position: absolute;
+    top: 520px;
+    left: 280px;
+    right: 0;
+}
+
+
+.totted2 img{
+    position: absolute;
+    height: 250px;
+    width: 580px;
+    top: 1010px;
+    left: 280px;
+    right: 0;
+}
+
+.i_do_tittle h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-top: 140px;
+    padding-bottom: 48px;
+    
+}
+
+.images{
+    padding-bottom: 65px;
+}
+
+.texts h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.texts p{
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+/*===I do Part end===*/
+/*------------------------------------------------------------------------------------------------------*/
+
+/*===recent work part start===*/
+
+.rwb_title h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-top: 140px;
+    padding-bottom: 48px;
+}
+
+.gallery1 img{
+    padding-top: 42px;
+}
+
+.gallery2 img+img{
+    padding-top: 42px;
+}
+
+.resent_work_side_image{
+    position: relative;
+}
+
+.resent_work_side_image img{
+    position: absolute;
+    top: 50px;
+    left: -330px;
+}
+
+.resent_work_side_image2{
+    position: relative;
+}
+
+.resent_work_side_image2 img{
+    position: absolute;
+    top: -750px;
+    right: -300px;
+}
+
+.btn_resent_work{
+    text-align: center;
+    padding-top: 82px;
+}
+
+.btn_resent_work span{
+    background-color: #3F3D56;
+    padding: 14px 40px;
+    border-radius: 50px;
+    color: #fff;
+}
+/*===recent work part end===*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+/*===last part start===*/
+
+.last_part_text h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 300px 0px 40px 0px;
+}
+
+.btn_last_part span{
+    background-color: #3F3D56;
+    padding: 14px 40px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.last_part_icon{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.last_part_icon a{
+    padding-right: 25px;
+    color: #3F3D56;
+    font-size: 25px;
+}
+
+.last_part_side_image{
+    position: absolute;
+    top: 4300px;
+    left: -120px;
+}
+
+.last_part_img img{
+    position: absolute;
+    top: -250px;
+    
+}
+
+.last_part_img2 img{
+    display: none;
+}
+/*===last part end===*/
